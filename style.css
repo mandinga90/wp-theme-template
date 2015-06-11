@@ -1,10 +1,17 @@
+@font-face {
+	font-family: Lora;  
+	src: local('Lora'), url("fonts/Lora/Lora-Regular.ttf") format('truetype');  
+	font-weight: normal;  
+}
+
 body {
+	font-family: 'Lora';
 	text-align: center;
 }
 
 #wrapper {
 	display: block;
-	border: 1px #a2a2a2 solid;
+	/*border: 1px #a2a2a2 solid;*/
 	width:90%;
 	margin:0px auto;
 }
@@ -13,16 +20,31 @@ body {
 	border: 2px #a2a2a2 solid;
 }
 
-#content {
-	width: 75%;
-	border: 2px #a2a2a2 solid;
-	float: left;
+/* default menu */
+.menu ul,
+#menu-header-menu  {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
 }
 
-#sidebar {
-	width: 23%;
+.menu ul > li,
+#menu-header-menu li {
+	display: inline-block;
+	padding: 5px 20px 5px 20px;
+}
+
+.menu > ul > li > a,
+#menu-header-menu  > li > a {
+	text-decoration: none;
+}
+
+#content {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
 	border: 2px #a2a2a2 solid;
-	float: right;
+	float: left;
 }
 
 #delimiter {
