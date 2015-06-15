@@ -5,6 +5,7 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class( $class ); ?>>
+	<div id="cover"></div>
 	<div id="wrapper">
 		<!-- include header image -->
 		<?php 

@@ -25,7 +25,7 @@ function my_theme_setup() {
 
 	// set custom header
 	$args = array(
-		'width'         => 560,
+		'width'         => 874,
 		'height'        => 120,
 		/*'default-image' => get_template_directory_uri() . '/images/custom-header.jpg' */
 	);
