@@ -10,9 +10,9 @@ add_action('after_setup_theme','my_theme_setup');
 function my_theme_setup() {
 
 	// register header menu as navigation menu
-	
+	/*
 	add_action( 'init', register_nav_menu('header-menu',__( 'Header Menu' )));
-
+	*/
 	// allow custom background color/img
 	$defaults = array(
 		'default-color'          => 'fff',
@@ -24,12 +24,13 @@ function my_theme_setup() {
 	add_theme_support( 'custom-background', $defaults );
 
 	// set custom header
+	/*
 	$args = array(
 		'width'         => 874,
 		'height'        => 120,
 		/*'default-image' => get_template_directory_uri() . '/images/custom-header.jpg' */
-	);
-	add_theme_support( 'custom-header', $args );
+	/*);
+	add_theme_support( 'custom-header', $args );*/
 
 }
 

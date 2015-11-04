@@ -1,5 +1,5 @@
 <div id="footer">
-<h4>The Haven @ Iringa - 2015</h4>
+<h4>&copy; <?php get_bloginfo('name'); ?> - <script type="text/javascript">var d=new Date(); document.write(d.getFullYear());</script></h4>
 </div>
 </div>
 <?php wp_footer(); ?>
